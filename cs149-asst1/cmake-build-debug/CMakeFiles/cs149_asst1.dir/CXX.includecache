@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yangjiang/CLionProjects/cs149-asst1/common/CycleTimer.h
+sys/sysctl.h
+-
+mach/mach.h
+-
+mach/mach_time.h
+-
+stdio.h
+-
+stdlib.h
+-
+windows.h
+-
+time.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/time.h
+-
+
+/Users/yangjiang/CLionProjects/cs149-asst1/prog1_mandelbrot_threads/mandelbrotSerial.cpp
+
+/Users/yangjiang/CLionProjects/cs149-asst1/prog1_mandelbrot_threads/mandelbrotThread.cpp
+stdio.h
+-
+thread
+-
+iostream
+-
+../common/CycleTimer.h
+/Users/yangjiang/CLionProjects/cs149-asst1/common/CycleTimer.h
+
